@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("https://us.123rf.com/450wm/peshkova/peshkova1912/peshkova191213132/135761600-empty-spot-on-white-table-full-of-office-tools-mock-up-3d-rendering.jpg?ver=6");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+}
+
+title {
+    margin-top: -1rem;
+    padding-top: 0;
+    background-color: #68d7ff;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.contact{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+}
+h2{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.about-me{
+    width: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 33%;
+}
+#profile{
+    float: right;
+    margin-top: 2rem;
+    transform: rotate(270deg);
+    height: 8rem;
+    border-radius: 40%;
+}
+
+
+.footer{
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+    display: flex;
+    background-color: rgb(102, 98, 98);
+}
+
+        
+
+.row a{
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+    
+}
+.row img{
+    height: max-content;
+    width: 5rem;
+    
+    
+}
+.row span{
+    left:  5rem;
+}
