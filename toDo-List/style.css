@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(131,58,180);
+    background: linear-gradient(0deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    min-height: 100vh;
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.inputcol{
+    display: grid;
+    column-gap: 2px;
+    grid-template-columns: 60% 10%;
+    min-height: 5rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.input{
+    border-radius: 10px;
+    border-color: #333;
+    font-size: 2;
+    padding: 0 1rem;
+}
+
+.input:focus{
+    outline:none;
+}
+
+.buttoninput{
+    border-radius: 1rem;
+    border-color: #333;
+    background-color: white;
+    font-size: 2;
+}
+.buttoninput:hover{
+    background-color: #8f7acc;
+    color:white;
+}
+
+.todolist{
+    margin-top:2rem;
+}
+
+.itemall {
+    display: grid;
+    grid-template-columns: 60% 5% 5%;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+.item {
+    background-color: white;
+    min-height: 50px;
+    word-wrap: break-word;
+    word-break: break-all;
+    border-radius: 10px 0 0 10px;
+    border-color: #333;
+    font-size: 20px;
+    display: grid;
+    align-content: center;
+    padding: 10px 10px;
+}
+
+.check-button, .trash-button {
+    min-height: 50px;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.trash-button {
+    border-radius: 0 10px 10px 0;
+}
+
+.check-button:hover {
+    background-color: #37b3cc;
+    color: white;
+}
+
+.trash-button:hover {
+    background-color: #6b73c1;
+    color: white;
+}
+
+.checklist {
+    text-decoration: line-through;
+}
+
+.fa-check, .fa-trash {
+    pointer-events: none;
+}

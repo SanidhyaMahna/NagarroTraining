@@ -5,7 +5,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url("https://us.123rf.com/450wm/peshkova/peshkova1912/peshkova191213132/135761600-empty-spot-on-white-table-full-of-office-tools-mock-up-3d-rendering.jpg?ver=6");
+    background-image: url("https://cbeditz.com/large/11614501733afdajkuasiyefqgfwgscz9djcznpifh3yvbfyxudljoevgxjfft0bvqdjd9i0wdeb0xxkk8zs2plqprtscjw7rgilpgcplvblxil.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
   background-size: cover;
@@ -55,21 +55,29 @@ h2{
     justify-content: center;
     display: flex;
 
-    display: flex;
+    padding-bottom: 1rem;
     background-color: rgb(102, 98, 98);
 }
 
-        
-
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .row a{
-    height: 5rem;
-    width: 5rem;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
     margin: 1rem;
     
 }
 .row img{
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
     height: max-content;
-    width: 5rem;
+    width: 2rem;
     
     
 }
