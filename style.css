@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -46,3 +47,36 @@ button{
     padding: 5px;
 
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    /* background-image: url(""); */
+    background-image: url("https://cdn.wallpapersafari.com/60/84/yhk1gA.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  background-size: cover;
+}
+
+.Selector{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    margin: 5px;
+    text-decoration: none;
+    
+}
+.cv a{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+>>>>>>> 79fac563ef2150df4a7f031296ef6bd0837f147a
