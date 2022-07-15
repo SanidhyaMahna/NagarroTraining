@@ -6,6 +6,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Pokemon Website</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-image: url("https://cdn.wallpapersafari.com/39/21/AjeFdp.jpg");
+
+        background-repeat: no-repeat;
+            
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      h2, h3{
+        margin: 1rem;
+      }
+      img{
+
+        margin: 1rem;
+      }
+      .trailer{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: 35%;
+      }
+      .wiki{
+        left: 30%;
+        position: relative;
+      }
+      form{
+        background-color: beige;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
   </head>
   <body>
     <hgroup>
@@ -78,6 +123,7 @@
     <div>
         <h2>TRAILER of Indigo region</h2>
         <iframe
+        class="trailer"
         width="500"
         height="300"
         src="https://www.youtube.com/embed/nS0ico6na_U"
@@ -91,7 +137,7 @@
     <br>
 
     <div>
-        <iframe width="600" height="600" src="https://en.wikipedia.org/wiki/Pok%C3%A9mon" title="pokemon-wiki"></iframe>
+        <iframe class="wiki" width="600" height="600" src="https://en.wikipedia.org/wiki/Pok%C3%A9mon" title="pokemon-wiki"></iframe>
     </div>
 
     <div class="formClass">

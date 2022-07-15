@@ -47,7 +47,16 @@ h2{
     height: 8rem;
     border-radius: 40%;
 }
-
+.cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cv a{
+    text-decoration: none;
+    color: white;
+}
 
 .footer{
     margin-top: 5rem;

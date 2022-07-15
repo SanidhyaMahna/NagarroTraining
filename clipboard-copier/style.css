@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(62, 59, 59);
+
+}
+h1{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    display: flex;
+}
+div{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+textarea{
+    background-color: beige;
+}
