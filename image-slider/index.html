@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Image Slider</title>
+  </head>
+  <body>
+    <div class="slides">
+      <div class="slide visible">
+        <img src="./images/IMG_1.jpeg" alt="" class="slide-img" />
+        <div class="caption">
+          <span>Magnificent Taj</span>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./images/IMG_2.jpg" alt="" class="slide-img" />
+        <div class="caption">
+          <span>The Iron Man of India</span>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./images/IMG_3.jpeg" alt="" class="slide-img" />
+        <div class="caption">
+          <span>Brighten up the future with the Golden colours</span>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./images/IMG_4.jpeg" alt="" class="slide-img" />
+        <div class="caption">
+          <span>India And its beauty</span>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./images/IMG_5.jpeg" alt="" class="slide-img" />
+        <div class="caption">
+          <span>Wonderful Jaipur</span>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="./images/IMG_6.jpeg" alt="" class="slide-img" />
+        <div class="caption">
+          <span>Magical Humpi</span>
+        </div>
+      </div>
+      <button class="arrow-btn" id="left">
+        <i class="fa-solid fa-caret-left"></i>
+      </button>
+      <button class="arrow-btn" id="right">
+        <i class="fa-solid fa-caret-right"></i>
+      </button>
+    </div>
+    <div class="show-index">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+      <span class="dot" onclick="currentSlide(6)"></span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/95f68113d2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
