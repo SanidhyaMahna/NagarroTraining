@@ -10,13 +10,11 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
   background-size: cover;
+
+   
 }
 
-h1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 span{
     align-content: center;
     margin-left: 43%;
@@ -24,7 +22,6 @@ span{
 }
 a{
     text-decoration: none;
-
     color: white;
     justify-content: center;
     align-items: center;
@@ -33,9 +30,8 @@ a{
 
 
 .buttons {
-    display: inline-block;
-    
-    margin: 10%;
+    display: inline-block;   
+    margin: 0;
     text-align: center;
 }
 
@@ -90,10 +86,11 @@ a{
     background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
     box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
 }
-/* .btn-hover.color-6 {
+.btn-hover.color-6 {
     background-image: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
     box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
 }
+/*
 .btn-hover.color-7 {
     background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
