@@ -5,21 +5,14 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url("https://cbeditz.com/large/11614501733afdajkuasiyefqgfwgscz9djcznpifh3yvbfyxudljoevgxjfft0bvqdjd9i0wdeb0xxkk8zs2plqprtscjw7rgilpgcplvblxil.jpg");
+    background-image: url("https://images.unsplash.com/7/Top_view.jpg?ixlib=rb-1.2.1");
     background-repeat: no-repeat;
     background-attachment: fixed;
   background-size: cover;
+  
 }
 
-title {
-    margin-top: -1rem;
-    padding-top: 0;
-    background-color: #68d7ff;
-    justify-content: center;
-    color: white;
-    align-items: center;
-    display: flex;
-}
+
 .contact{
     margin-left: 1rem;
     font-size: 1.5rem;
@@ -31,7 +24,9 @@ h2{
     align-items: center;
     display: flex;
 }
-
+.home{
+    height: 15rem;
+}
 .about-me{
     width: 25rem;
     display: flex;
@@ -40,12 +35,41 @@ h2{
     display: flex;
     margin-left: 33%;
 }
+.navbar-brand{
+    border: 1px solid white;
+
+    padding: 0.3rem;
+    border-radius: 15px;
+}
+.navbar-brand:hover{
+    background-color: white;
+}
+nav{
+    
+position:absolute;
+
+  top:0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+nav > ul{
+    display: inline-block;
+  border-radius: 0.35em;
+  box-shadow: inset 0px 0px 1px 1px rgba(255, 255, 255, 0.25);
+  padding: 0 1.5em 0 1.5em;
+}
+section{
+    border-bottom: 2px solid white;
+    
+}
 #profile{
     float: right;
-    margin-top: 2rem;
+    margin-top: 1rem;
     transform: rotate(270deg);
     height: 8rem;
     border-radius: 40%;
+    color: white;
 }
 .cv{
     display: flex;
@@ -58,8 +82,38 @@ h2{
     color: white;
 }
 
-.footer{
-    margin-top: 5rem;
+
+#education{
+    border-top:0.2rem,solid white ;
+   display: flexbox;
+   align-items: center
+    
+    
+}
+#education h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(215, 215, 215);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+/* FOOTER */
+  .footer{
+    
     align-items: center;
     justify-content: center;
     display: flex;
@@ -68,19 +122,8 @@ h2{
     background-color: rgb(102, 98, 98);
 }
 
-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.row a{
-    justify-content: center;
-    align-items: center;
-    height: 2rem;
-    width: 2rem;
-    margin: 1rem;
-    
-}
+
+
 .row img{
     margin-top: 1rem;
     justify-content: center;
@@ -90,6 +133,20 @@ button{
     
     
 }
+.row a{
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 2rem;
+    margin: 1rem;
+    
+}
 .row span{
     left:  5rem;
+}
+
+.card{
+    display: inline-flex;
+    margin: 0.1rem;
+
 }
