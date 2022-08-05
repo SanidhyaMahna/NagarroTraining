@@ -67,6 +67,7 @@ section{
     float: right;
     margin-top: 1rem;
     transform: rotate(270deg);
+    margin-left: 20rem;
     height: 8rem;
     border-radius: 40%;
     color: white;
@@ -149,4 +150,39 @@ table {
     display: inline-flex;
     margin: 0.1rem;
 
+}
+#card-holder{
+    margin-left: 2rem;
+}
+#card-holder .card{
+    background-color: blanchedalmond;
+}
+
+#container {
+    position: absolute;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+
+    filter: url(#threshold) blur(0.6px);
+}
+#text1,
+#text2 {
+    position: absolute;
+    width: 70vw;
+    display: flex;
+    margin-top: -6.5rem;
+
+    justify-content: center;
+    align-items: center;
+   
+    font-family: "Raleway", sans-serif;
+    font-size: 2rem;
+    color: white;
+
+    
+
+    
 }
