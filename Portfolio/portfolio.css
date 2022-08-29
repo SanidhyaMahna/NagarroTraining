@@ -12,6 +12,11 @@ body{
   
 }
 
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .contact{
     margin-left: 1rem;
@@ -27,13 +32,14 @@ h2{
 .home{
     height: 15rem;
 }
-.about-me{
-    width: 25rem;
+p{
+    position: relative;
+    width: 33%;
+    left: 33%;
     display: flex;
     align-items: center;
     justify-content: center;
-    display: flex;
-    margin-left: 33%;
+   text-align: center;
 }
 .navbar-brand{
     border: 1px solid white;
@@ -148,14 +154,22 @@ table {
 
 .card{
     display: inline-flex;
-    margin: 0.1rem;
+    margin: 0.5rem;
 
+}
+.card-body{
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 #card-holder{
     margin-left: 2rem;
 }
 #card-holder .card{
-    background-color: blanchedalmond;
+    background-color: #ccc;
+    
 }
 
 #container {

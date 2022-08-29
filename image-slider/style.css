@@ -10,6 +10,8 @@ body {
     font-family: sans-serif;
     
     background-image: url("https://cdn.pixabay.com/photo/2019/05/27/14/43/pattern-4232865_1280.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   img{
     width: 90vw;
